@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: Verdana;
+}
+html, body{
+    height: 100%;
+}
+
+.header{
+    background: url(img/nav-bg.png) no-repeat;
+    height: 100vh;
+}
