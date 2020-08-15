@@ -1,13 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
-    font-size: Verdana;
+    font-family: 'Lato', sans-serif;
 }
 html, body{
     height: 100%;
+}
+
+/* General Styles */
+.title{
+    font-weight: 900;
+    font-size: 56px;
+}
+
+.title-section{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 62px;
+}
+.p-item1{
+    color: #676D7D;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.p-item2{
+    color: #8E95A9;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.p-section{
+    color: #676D7D;
+    font-size: 18px;
+}
+
+
+
+.p-item{
+    padding:1rem;
+    color: #676D7D;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.p-tip{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    color: #7E8393;
 }
 
 .header{
     background: url(img/nav-bg.png) no-repeat;
     height: 100vh;
 }
+
+
+
+.sl-1{
+    margin-top: 5rem;
+}
+
