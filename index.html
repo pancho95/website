@@ -1,331 +1,368 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Css Style-->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Webflow Prueba</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Start Navbar-->
-      <div class="row">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#"><img src="svg/logo.svg" height="40px" alt=""></a>
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Pricing</a>
-            </li>
-            <!--Dropdown-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Compare
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <!--Dropdown-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Solutions
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Help</a>
-            </li>
-          </ul>
-          
-        </div>
-      </nav>
-    </div>
-      <!--End Navbar-->
+  <!-- Css Style-->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-      <!--Section 1-->
-      <div class="row">
-      <section class="col-md-6 mt-5">
-        <div class="form-group col-6">
+  <title>Bons Challenge Francisco Bolatti</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Start Navbar-->
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+      <a class="navbar-brand" href="#"><img src="svg/logo.svg" alt=""></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb"
+        aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navb" class="navbar-collapse collapse hide">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link font-weight-bold" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Pricing</a>
+          </li>
+          <div class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle text-dark">Compare</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Web Design</a>
+              <a href="#" class="dropdown-item">Web Development</a>
+              <a href="#" class="dropdown-item">Graphic Design</a>
+              <a href="#" class="dropdown-item">Digital Marketing</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="#" data-toggle="dropdown" class="nav-item nav-link dropdown-toggle text-dark">Solutions</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Responsive Design</a>
+              <a href="#" class="dropdown-item">App Development</a>
+              <a href="#" class="dropdown-item">Social Media</a>
+              <a href="#" class="dropdown-item">Marketing</a>
+            </div>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Help</a>
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <button type="button" class="btn btn-sign">Sign Up</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-duck">Get Started Free</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--End Navbar-->
+
+    <!--Section 1-->
+    <div class="row">
+      <section class="col-md-6">
+        <div class="form-group col-md-6">
           <select id="inputState" class="form-control">
             <option selected>Produck for<b> Enterprise</b></option>
           </select>
         </div>
         <h1 class="title pt-3">The Enterprise solution for efficient teams</h1>
-        <p class="p-item1 pt-2">Produck allows you to build at scale, bringing your whole 
-        organization to a single place to collaborate, innovate, and 
-        move work forward.</p>
+        <p class="p-item1 pt-2">Produck allows you to build at scale, bringing your whole
+          organization to a single place to collaborate, innovate, and
+          move work forward.</p>
         <div class="input-group col-md-7">
-          <input type="text" class="form-control" placeholder="You work mail..." aria-label="You work mail..." aria-describedby="basic-addon2">
+          <input type="text" class="form-control" placeholder="You work mail..." aria-label="You work mail..."
+            aria-describedby="basic-addon2">
           <div class="input-group-append">
             <button type="button" class="btn btn-success">Get Started Free</button>
           </div>
         </div>
         <p class="p-item2 pt-3">Free forever version with Unlimited Users, Free 14-days trial to test Premium.
-           No credit card required. Cancel anytime</p>
-        <button type="button" class="btn text-white" style="background-color: purple;"><b>FREE Asana & Jira Migration!</b> Transfer everything in seconds!</button>
+          No credit card required. Cancel anytime</p>
+        <button type="button" class="btn text-white" style="background-color: purple;"><b>FREE Asana & Jira
+            Migration!</b> Transfer everything in seconds!</button>
       </section>
       <section class="col-md-6 header">
         <div class="d-flex">
           <img class="img-fluid" src="img/bg.png">
         </div>
       </section>
-      </div>
-      <!--Section 2-->
-      <div class="row">
-        
-        <section class="col-md-6 mt-5">
-            <img class="img-fluid" src="img/bg-1.png">
-        </section>
-        <section class="col-md-6">
-          <h2 class="title-section">Your whole<br>organization on<br> Produck</h2>
-          <p class="p-section">Produck offers the flixibility to organize your departments, platforms, projects, or products in a way that fits your organization's unique needs.</p>
-          <div class="d-flex">
-            <img src="svg/Macbook.svg">
-            <p class="p-item">Have a single place for your entire organization to collaborate and move work forward</p>
-          </div>
-          <div class="d-flex">
-            <img src="svg/Team.svg">
-            <p class="p-item">Enable teams' autonomy while having full control of processes and workflows</p>
-          </div>
-          <div class="d-flex">
-            <img src="svg/Tree.svg" alt="">
-            <p class="p-item">Move projects between teams, or have multi-project tasks, enabling cross-team collaboration</p>
-          </div>
-        
-        </section>
-      </div>
-      <!--Section 3-->
-    <div class="row">
-      <section class="col-md-6 mt-5">
-      <h2 class="title-section">Portfolio Monitor</h2>
-      <p class="p-section">Every folder has its own dashboard displaying an overview of nested projects and sprints.</p>
-      <div class="d-flex item">
-        <img src="svg/Flag.svg" alt="">
-        <p class="p-item">Quickly visualize how each department/team´s projects and sprints are progressing</p>
-      </div>
-      <div class="d-flex item">
-        <img src="svg/Management.svg" alt="">
-        <p class="p-item">Have and overview of projects across your entire organization with your team dashboard</p>
-      </div>
-    </section>
-    <section class="col-md-6">
-      <img class="img-fluid" src="img/bg-2.png" alt="">
-    </section>
     </div>
-      <!--Section 4-->
-      <div class="row">
-        <section class="col-md-6 mt-5">
-          <img class="img-fluid" src="img/bg-3.png" alt="">
-        </section>
-        <section class="col-md-6">
-          <h2 class="title-section">Granular Roles and Permissions
-          </h2>
-          <p class="p-section">Have full control of waht every member can access,view, or do in your organization.</p>
-          <div class="d-flex item">
-            <img src="svg/Account.svg" alt="">
-            <p class="p-item">Have differnte leveles of permission for the same person within different departments, teams or projects</p>
-          </div>
-          <div class="d-flex item">
-            <img src="svg/Chair.svg" alt="">
-            <p class="p-item">Invite stakeholders as free guests to only see the basics and get involved</p>
-          </div>
-          <div class="d-flex item">
-            <img src="svg/ID.svg" alt="">
-            <p class="p-item">Grant restricted access to contractors on a project-by-project basis</p>
-          </div>
-        </section>
-      </div>
-      <!--Section 5-->
-      <div class="row">
-        <section class="col-md-6 mt-5">
-          <h2 class="title-section">Plan and Report</h2>
-          <p class="p-section">Keep your work on track, adapt to scope changes, and have a predicted time when things will get done, keeping projects on time and on budget. Produck is perfect for agiel teams offering you all the tools you need with a great experience and responsiveness</p>
-          <div class="d-flex">
-            <img src="svg/Sprint.svg" alt="">
-            <p class="p-item">Use sprints to combine tasks form multiple projects that need to be completed during a specific timeframe</p>
-          </div>
-          <div class="d-flex">
-            <img src="svg/Board.svg" alt="">
-            <p class="p-item">Besides list view, you can visualize sprints and projects on Kanban boards</p>
-          </div>
-          <div class="d-flex">
-            <img src="svg/Quality.svg" alt="">
-            <p class="p-item">Produck offerts epics, multiple assignees, priority levels, and more</p>
-          </div>
-          <p class="p-tip"><b>Pro Tip: Group Tasks.</b> Use our "Group by" feature to have a better overview. Group by Assignee is great to see the workload of your team and change assignments accordingly, while Group by Status gives you a clear indicator to spot blocks and delays. 
-          </p>
-        </section>
-        <section class="col-md-6">
-          <img src="img/bg-4.png" alt="">
-        </section>
-      </div>
+    <!--Section 2-->
+    <div class="row">
 
-      <!-- Section 6-->
-      <div class="row">
-        
-        <section class="col-md-12 mt-5">
-          <h2 class="title-section text-center">Live Reporting</h2>
-          <p class="p-section text-center">Burndown Charts and Release Reports are live-updated, meaning if anything changes on your sprint you will see it reflected inmmediately.</p>
-          <img class="img-fluid" src="img/bg-5.png" alt="">
-          <p class="p-tip text-center"><b>Pro Tip:</b> Predict the future and avoid surprises! Use Release Reports' predictive algorithm to have a glance at when a sprint will be completed based on the work that was already done and your team´s velocity. Whit this, you can communicate delays early or adapt the scope to reach your deadlines. 
+      <section class="col-md-6">
+        <img class="img-fluid" src="img/bg-1.png">
+      </section>
+      <section class="col-md-6">
+        <h2 class="title-section">Your whole<br>organization on<br> Produck</h2>
+        <p class="p-section">Produck offers the flixibility to organize your departments, platforms, projects, or
+          products in a way that fits your organization's unique needs.</p>
+        <div class="d-flex">
+          <img src="svg/Macbook.svg">
+          <p class="p-item">Have a single place for your entire organization to collaborate and move work forward</p>
+        </div>
+        <div class="d-flex">
+          <img src="svg/Team.svg">
+          <p class="p-item">Enable teams' autonomy while having full control of processes and workflows</p>
+        </div>
+        <div class="d-flex">
+          <img src="svg/Tree.svg" alt="">
+          <p class="p-item">Move projects between teams, or have multi-project tasks, enabling cross-team collaboration
           </p>
+        </div>
+
+      </section>
+    </div>
+    <!--Section 3-->
+    <div class="row">
+      <section class="col-md-6">
+        <h2 class="title-section">Portfolio Monitor</h2>
+        <p class="p-section">Every folder has its own dashboard displaying an overview of nested projects and sprints.
+        </p>
+        <div class="d-flex item">
+          <img src="svg/Flag.svg" alt="">
+          <p class="p-item">Quickly visualize how each department/team´s projects and sprints are progressing</p>
+        </div>
+        <div class="d-flex item">
+          <img src="svg/Managementtiny.svg" alt="">
+          <p class="p-item">Have and overview of projects across your entire organization with your team dashboard</p>
+        </div>
+      </section>
+      <section class="col-md-6">
+        <img class="img-fluid" src="img/bg-2.png" alt="">
+      </section>
+    </div>
+    <!--Section 4-->
+    <div class="row">
+      <section class="col-md-6">
+        <img class="img-fluid" src="img/bg-3.png" alt="">
+      </section>
+      <section class="col-md-6">
+        <h2 class="title-section">Granular Roles and Permissions
+        </h2>
+        <p class="p-section">Have full control of waht every member can access,view, or do in your organization.</p>
+        <div class="d-flex item">
+          <img src="svg/Account.svg" alt="">
+          <p class="p-item">Have differnte leveles of permission for the same person within different departments, teams
+            or projects</p>
+        </div>
+        <div class="d-flex item">
+          <img src="svg/Chair.svg" alt="">
+          <p class="p-item">Invite stakeholders as free guests to only see the basics and get involved</p>
+        </div>
+        <div class="d-flex item">
+          <img src="svg/ID.svg" alt="">
+          <p class="p-item">Grant restricted access to contractors on a project-by-project basis</p>
+        </div>
+      </section>
+    </div>
+    <!--Section 5-->
+    <div class="row">
+      <section class="col-md-6">
+        <h2 class="title-section">Plan and Report</h2>
+        <p class="p-section">Keep your work on track, adapt to scope changes, and have a predicted time when things will
+          get done, keeping projects on time and on budget. Produck is perfect for agiel teams offering you all the
+          tools you need with a great experience and responsiveness</p>
+        <div class="d-flex">
+          <img src="svg/Sprint.svg" alt="">
+          <p class="p-item">Use sprints to combine tasks form multiple projects that need to be completed during a
+            specific timeframe</p>
+        </div>
+        <div class="d-flex">
+          <img src="svg/Board.svg" alt="">
+          <p class="p-item">Besides list view, you can visualize sprints and projects on Kanban boards</p>
+        </div>
+        <div class="d-flex">
+          <img src="svg/Quality.svg" alt="">
+          <p class="p-item">Produck offerts epics, multiple assignees, priority levels, and more</p>
+        </div>
+        <p class="p-tip"><b>Pro Tip: Group Tasks.</b> Use our "Group by" feature to have a better overview. Group by
+          Assignee is great to see the workload of your team and change assignments accordingly, while Group by Status
+          gives you a clear indicator to spot blocks and delays.
+        </p>
+      </section>
+      <section class="col-md-6">
+        <img src="img/bg-4.png" alt="">
+      </section>
+    </div>
+
+    <!-- Section 6-->
+    <div class="row">
+
+      <section class="col-md-12">
+        <h2 class="title-section text-center">Live Reporting</h2>
+        <p class="p-section text-center">Burndown Charts and Release Reports are live-updated, meaning if anything
+          changes on your sprint you will see it reflected inmmediately.</p>
+        <img class="img-fluid" src="img/bg-5.png" alt="">
+        <p class="p-tip text-center"><b>Pro Tip:</b> Predict the future and avoid surprises! Use Release Reports'
+          predictive algorithm to have a glance at when a sprint will be completed based on the work that was already
+          done and your team´s velocity. Whit this, you can communicate delays early or adapt the scope to reach your
+          deadlines.
+        </p>
+        <div class="d-flex">
           <div class="d-flex">
-            <div class="d-flex">
-              <img src="svg/Presentations.svg" alt="">
-              <p class="p-item">Use Burndown Charts to help you to mmet deadlines and track your team speed</p>
-            </div>
-            <div class="d-flex">
-              <img src="svg/Calendar.svg" alt="">
-              <p class="p-item">Release Reports help you to manage scope changes and better predict end dates</p>
-            </div>
+            <img src="svg/Presentations.svg" alt="">
+            <p class="p-item">Use Burndown Charts to help you to mmet deadlines and track your team speed</p>
           </div>
-        </section>
-    
-      </div>
-      <!--Section 7-->
-      <div class="row">
-        <section class="col-md-12 mt-5">
-          <div class="d-flex justify-content-between text-center">
-            <div class="card1 col-md-3">
-              <div class="d-flex flex-column align-items-center">
-                <div class="circle-icon">
-                  <img src="svg/Saleforce icon.svg" alt="">
-                </div>
+          <div class="d-flex">
+            <img src="svg/Calendar.svg" alt="">
+            <p class="p-item">Release Reports help you to manage scope changes and better predict end dates</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!--Section 7-->
+    <div class="row">
+      <section class="col-md-12 mt-5">
+        <div class="d-flex justify-content-between text-center">
+          <div class="card1 col-md-3">
+            <div class="d-flex flex-column align-items-center">
+              <div class="circle-icon">
+                <img src="svg/Saleforce icon.svg" alt="">
+              </div>
               <h5 class="t-card">Salesforce</h5>
-              <p class="p-card">Produck integrates with Salesforce, a leading enterprise customer relationship manager (CRM) application.
+              <p class="p-card">Produck integrates with Salesforce, a leading enterprise customer relationship manager
+                (CRM) application.
               </p>
             </div>
           </div>
-            <div class="card1 col-md-3">
-              <div class="d-flex flex-column align-items-center">
+          <div class="card1 col-md-3">
+            <div class="d-flex flex-column align-items-center">
               <div class="circle-icon">
-                  <img src="svg/google-sheets logo.svg" alt="">
+                <img src="svg/google-sheets logo.svg" alt="">
               </div>
               <h5 class="t-card">Google Sheets</h5>
-              <p class="p-card">Automatically add new rows to a Google Sheets when a task in Produck changes states, priority and more.
-              </p>
-            </div>
-            </div>
-            <div class="card1 col-md-3">
-              <div class="d-flex flex-column align-items-center">
-              <div class="circle-icon">
-                  <img src="svg/Gmail logo.svg" alt="">
-              </div>
-              <h5 class="t-card">Gmail</h5>
-              <p class="p-card">Ever wanted to have emails from Gmail get sent to Produck as tasks? Create Produck tasks from new starred emails in your Gmail account.
+              <p class="p-card">Automatically add new rows to a Google Sheets when a task in Produck changes states,
+                priority and more.
               </p>
             </div>
           </div>
-          </div>	 
-        </section>
-      </div>
-      </div>
-      <!--Section 8-->
-      <div class="row">
-        
-          <section class="col-md-12 mt-5">
-            <div class="d-flex justify-content-center mt-5">
-              <div class="feature col-md-3">
-                <img src="svg/Security.svg" alt="">
-                <h3 class="t-feature">Security</h3>
-                <p class="p-feature">The Produck infrastructure is provided by <a href="#">Amazon Web Servicies(AWS)</a>, provinding end-to-end securiy and privacy features built in.</p>
+          <div class="card1 col-md-3">
+            <div class="d-flex flex-column align-items-center">
+              <div class="circle-icon">
+                <img src="svg/Gmail logo.svg" alt="">
               </div>
-              <div class="feature col-md-3">
-                <img src="svg/AdminCMS.svg" alt="">
-                <h3 class="t-feature">Data Control</h3>
-                <p class="p-feature">Our Enterprise plan gies you advanced data control like full data deletion, data export, and encryption at rest.</p>
-              </div>
-              <div class="feature col-md-3">
-                <img src="svg/Support.svg" alt="">
-                <h3 class="t-feature">Support</h3>
-                <p class="p-feature">Your dedicated success manager will help you set up and use Produck to fit your wokflow and optimize team efficiency.</p>
-              </div>
+              <h5 class="t-card">Gmail</h5>
+              <p class="p-card">Ever wanted to have emails from Gmail get sent to Produck as tasks? Create Produck tasks
+                from new starred emails in your Gmail account.
+              </p>
             </div>
-            <div class="d-flex justify-content-center mt-5">
-              <div class="feature col-md-3">
-                <img src="svg/Health.svg" alt="">
-                <h3 class="t-feature">99.9% Uptime</h3>
-                <p class="p-feature">We offer the highest level of support, including 99.9% Uptime SLA, 24/7 support for urgent task, and 24/5 support with an eight-hour response time for less-urgent matters.</p>
-              </div>
-              <div class="feature col-md-3">
-                <img src="svg/Management.svg" alt="">
-                <h3 class="t-feature">SAML</h3>
-                <p class="p-feature">Control who has access to your organization with SAML single sign-on and Access Provisioning/Deprovisioning.</p>
-              </div>
-              <div class="feature col-md-3">
-                <img src="svg/Design.svg" alt="">
-                <h3 class="t-feature">Customizations</h3>
-                <p class="p-feature">We understand that every team has its own needs. We use our seven years of agency experience to offer custom feature development tailored to yuor unique needs.</p>
-              </div>
-            </div>
-          </section>
-
-      </div>
-      <!--Section 9-->
-      <div class="row">
-          <section class="d-flex justify-content-center col-md-12 mt-5">
-            <div class="col-md-9 duck-container pt-5 pb-5">
-              <h5 class="t-duck pl-3">Try Produck for free</h5>
-              <p class="p-duck pl-3">Make your team more successful with Produck.</p>
-              <div class="pl-3">
-                <button type="button" class="btn btn-light btn-duck">Get Started Free</button>
-                <button type="button" class="btn btn-demo"><img src="svg/Shape.svg">Watch Demo</button>
-              </div>
-            </div>
-          </section>
-      </div>
-      <!--Social-->
-      <div class="row">
-          <section class="col-12 mt-5">
-            <div class="d-flex justify-content-center">
-              <div class="social">
-              <a href="#"><img src="svg/facebook.svg" width="28px"></a>
-              <a href="#"><img src="svg/youtube.svg" width="28px"></a>
-              <a href="#"><img src="svg/instagram.svg" width="28px"></a>
-              <a href="#"><img src="svg/twittercard.svg" width="179px"></a>
-              <a href="#"><img src="svg/bonscard.svg" width="179px"></a>
-            </div>
-            </div>
-          </section>
-      </div>
-      <!--Footer-->
-      <div class="row">
-          <section class="col-md-12 mt-5">
-            <div class="d-flex justify-content-center f-social">
-              <a class="btn-footer text-center" href="#">Privacy Policy</a>
-              <a class="btn-footer text-center" href="#">Cookie Policy</a>
-              <a class="btn-footer text-center" href="#">Terms and Conditions</a>
-              <a class="btn-footer text-center grey" href="#">Legal Notice</a>
-              <a class="btn-footer text-center grey" href="#">Contact Us</a>
-            </div>
-          </section>
-      </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+  <!--Section 8-->
+  <div class="row">
+
+    <section class="col-md-12 mt-5">
+      <div class="d-flex justify-content-center mt-5">
+        <div class="feature col-md-3">
+          <img src="svg/Security.svg" alt="">
+          <h3 class="t-feature">Security</h3>
+          <p class="p-feature">The Produck infrastructure is provided by <a href="#">Amazon Web Servicies(AWS)</a>,
+            provinding end-to-end securiy and privacy features built in.</p>
+        </div>
+        <div class="feature col-md-3">
+          <img src="svg/AdminCMS.svg" alt="">
+          <h3 class="t-feature">Data Control</h3>
+          <p class="p-feature">Our Enterprise plan gies you advanced data control like full data deletion, data export,
+            and encryption at rest.</p>
+        </div>
+        <div class="feature col-md-3">
+          <img src="svg/Support.svg" alt="">
+          <h3 class="t-feature">Support</h3>
+          <p class="p-feature">Your dedicated success manager will help you set up and use Produck to fit your wokflow
+            and optimize team efficiency.</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <div class="feature col-md-3">
+          <img src="svg/Health.svg" alt="">
+          <h3 class="t-feature">99.9% Uptime</h3>
+          <p class="p-feature">We offer the highest level of support, including 99.9% Uptime SLA, 24/7 support for
+            urgent task, and 24/5 support with an eight-hour response time for less-urgent matters.</p>
+        </div>
+        <div class="feature col-md-3">
+          <img src="svg/Management.svg" alt="">
+          <h3 class="t-feature">SAML</h3>
+          <p class="p-feature">Control who has access to your organization with SAML single sign-on and Access
+            Provisioning/Deprovisioning.</p>
+        </div>
+        <div class="feature col-md-3">
+          <img src="svg/Design.svg" alt="">
+          <h3 class="t-feature">Customizations</h3>
+          <p class="p-feature">We understand that every team has its own needs. We use our seven years of agency
+            experience to offer custom feature development tailored to yuor unique needs.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!--Section 9-->
+  <div class="row">
+    <section class="d-flex justify-content-center col-md-12 mt-5">
+      <div class="col-md-9 duck-container pt-5 pb-5">
+        <h5 class="t-duck pl-3">Try Produck for free</h5>
+        <p class="p-duck pl-3">Make your team more successful with Produck.</p>
+        <div class="pl-3">
+          <button type="button" class="btn btn-light btn-duck">Get Started Free</button>
+          <button type="button" class="btn btn-demo"><img src="svg/Shape.svg">Watch Demo</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--Social-->
+  <div class="row">
+    <section class="col-12 mt-5">
+      <div class="d-flex justify-content-center">
+        <div class="social">
+          <a href="#"><img src="svg/facebook.svg" width="28px"></a>
+          <a href="#"><img src="svg/youtube.svg" width="28px"></a>
+          <a href="#"><img src="svg/instagram.svg" width="28px"></a>
+          <a href="#"><img src="svg/twittercard.svg" width="179px"></a>
+          <a href="#"><img src="svg/bonscard.svg" width="179px"></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--Footer-->
+  <div class="row">
+    <section class="col-md-12 mt-5">
+      <div class="d-flex justify-content-center f-social">
+        <a class="btn-footer text-center" href="#">Privacy Policy</a>
+        <a class="btn-footer text-center" href="#">Cookie Policy</a>
+        <a class="btn-footer text-center" href="#">Terms and Conditions</a>
+        <a class="btn-footer text-center grey" href="#">Legal Notice</a>
+        <a class="btn-footer text-center grey" href="#">Contact Us</a>
+      </div>
+    </section>
+  </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

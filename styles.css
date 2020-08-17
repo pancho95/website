@@ -62,7 +62,7 @@ html, body{
 
 
 
-.sl-1{
+.m-5rem{
     margin-top: 5rem;
 }
 
@@ -135,6 +135,13 @@ html, body{
 .btn-duck{
     margin:10px 0px;
     color: #2693FF !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-sign{
+    margin:10px 0px;
+    color: black !important;
     font-size: 16px;
     line-height: 24px;
 }
