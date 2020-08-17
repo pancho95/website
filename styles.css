@@ -56,16 +56,19 @@ html, body{
 }
 
 .header{
-    background: url(img/nav-bg.png) no-repeat;
+    background: url(img/nav-bg.png)no-repeat bottom right;
     height: 100vh;
 }
 
-
-
-.m-5rem{
-    margin-top: 5rem;
+.p-rem{
+    padding-top: 17rem;
 }
 
+.m-rem1{
+    margin-top: 0rem;
+}
+
+/*Cards */
 
 .t-card{
     padding-top: 2rem;
@@ -152,13 +155,20 @@ html, body{
 
 
 
-/*Footer */
-.social a{
-    padding: 0 1rem;
+/* Social */
+.icon-social{
+    margin: 0 1rem;
 }
 
+
+
+.l-social{
+    margin: 0 1rem;
+}
+
+/*Footer */
 .f-social a{
-    padding: 0 1rem;
+    margin: 0 1rem;
 }
 
 .btn-footer{
@@ -168,4 +178,25 @@ html, body{
 
 .grey{
     color: #8E95A9;
+}
+
+
+@media(max-width:768px){
+    .icon{
+        width:64px;
+        margin: auto;
+    }
+    .l-social{
+        margin: 1rem 0rem;
+    }
+    .btn-social{
+        margin: 1rem 0;
+    }
+    .p-rem{
+        padding-top: 4rem;
+    }
+    .m-rem1{
+        margin-top: 4rem;
+    }
+
 }
